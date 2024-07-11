@@ -1,4 +1,4 @@
-
+import { IconHexagonNumber1, IconLayout2, IconApps } from '@tabler/icons-react'
 import MenuItem from "./MenuItem";
 
 export default function MenuPrincipal() {
@@ -6,9 +6,18 @@ export default function MenuPrincipal() {
     return (
         <aside className="w-60 bg-zinc-900">
             <nav className="flex flex-col p-5 gap-1">
-                <MenuItem link='/primeiro'>Primeiro Componente</MenuItem>
-                <MenuItem link='/flexbox'>Flexbox</MenuItem>
-                <MenuItem link='/pagina'>Componente Página</MenuItem>
+                <MenuItem link='/primeiro'>
+                    <IconHexagonNumber1 />
+                    Primeiro Componente
+                </MenuItem>
+                <MenuItem link='/flexbox'>
+                    <IconLayout2 />
+                    Flexbox
+                </MenuItem>
+                <MenuItem link='/pagina'>
+                    <IconApps />
+                    Componente Página
+                </MenuItem>
                 {/* {menuItem('/primeiro', 'Primeiro Componente')}
                 {menuItem('/flexbox', 'Flexbox')}
                 {menuItem('/pagina', 'Componente Página')} */}
