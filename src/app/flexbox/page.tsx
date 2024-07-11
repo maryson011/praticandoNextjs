@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Page() {
     return (
         <Pagina>
-            <div className="h-screen">
+            <div className="h-96">
                 <nav>
                     <Link href="/">Home</Link>
                 </nav>

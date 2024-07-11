@@ -1,13 +1,15 @@
-import Image from "next/image";
-import Link from "next/link";
+import Pagina from "@/components/template/Pagina";
+import { IconDashboard } from '@tabler/icons-react';
 
 export default function Home() {
   return (
-    <div className="
-      bg-gradient-to-r from-black to-zinc-800 h-screen
-      ">
-      <h1 className="font-black">Masterclass Next</h1>
-      
-    </div>
+    <Pagina>
+      <div className="flex flex-col justify-center items-center w-full h-96">
+        <IconDashboard size={100} stroke={.5} className="text-zinc-500"/>
+        <div className="flex flex-col items-center">
+          <h1 className="font-black">Masterclass Next</h1>
+        </div>
+      </div>
+    </Pagina>
   );
 }
