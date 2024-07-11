@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Masterclass Next</h1>
-      <nav>
-        <Link href="/primeiro">Primeiro Componente</Link>
-      </nav>
+    <div className="
+      bg-gradient-to-r from-black to-zinc-800 h-screen
+      ">
+      <h1 className="font-black">Masterclass Next</h1>
+      
     </div>
   );
 }
