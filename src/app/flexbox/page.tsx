@@ -4,7 +4,6 @@ import Link from "next/link";
 
 export default function Page() {
     return (
-        <Pagina>
             <div className="h-96">
                 <nav>
                     <Link href="/">Home</Link>
@@ -21,6 +20,5 @@ export default function Page() {
                     <Caixa texto="3@@ TEXTO 3"/>
                 </div>
             </div>
-        </Pagina>
     )
 }

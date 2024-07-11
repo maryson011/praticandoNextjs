@@ -27,7 +27,6 @@ function gerarUmaLista() {
 
 export default function Primeiro() {
     return (
-        <Pagina>
             <>
                 <h1>Primeiro</h1>
                 <nav>
@@ -45,6 +44,5 @@ export default function Primeiro() {
                     {titulo}
                 </div>
             </>
-        </Pagina>
     )
 }
