@@ -1,5 +1,6 @@
 import Pagina from "@/components/template/Pagina";
 import { IconDashboard } from '@tabler/icons-react';
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -8,6 +9,10 @@ export default function Home() {
         <div className="flex flex-col items-center">
           <h1 className="font-black">Masterclass Next</h1>
         </div>
+          <Link href="/primeiro" 
+          className="bg-blue-500 rounded-md px-4 py-2"
+          >Entrar
+          </Link>
       </div>
   );
 }
